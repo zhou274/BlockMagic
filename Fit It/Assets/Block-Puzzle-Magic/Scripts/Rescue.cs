@@ -72,7 +72,7 @@ public class Rescue : MonoBehaviour
 			GamePlay.Instance.OnGameOver();
 			gameObject.Deactivate();
 		}
-        ShowInterstitialAd("1lcaf5895d5l1293dc",
+        ShowInterstitialAd("7ch5hf859bi7b37g35",
             () => {
                 Debug.LogError("--插屏广告完成--");
 
@@ -115,7 +115,7 @@ public class Rescue : MonoBehaviour
 	}
 	public void OnRescueByWatch()
 	{
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("17ae14lmejc1f0daa5",
             (bol) => {
                 if (bol)
                 {
